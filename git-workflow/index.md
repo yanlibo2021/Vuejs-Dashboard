@@ -336,6 +336,13 @@ git fetch upstream
 git merge upstream/<branch name>
 git push origin <branch name>
 
+
+// search branch 
+git branch -a | grep <branch name>
+
+//update remote list
+git remote update origin -p
+
 //
 git remote show origin //可以看到删除分支情况
 git remote prune origin
